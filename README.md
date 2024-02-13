@@ -1,4 +1,7 @@
-# Project-3
+# Project-3: Named Entity Disambiguation
+
+## Our Kaggle Implementation
+https://www.kaggle.com/code/antonion01/project-3-infoexplorers?scriptVersionId=155574391
 
 ## Overview
 
@@ -6,6 +9,8 @@ Named Entity Disambiguation (NED) is the task of mapping entities, such as perso
 For instance, consider the following sentence:
 'The projects in Distributed Information Systems are assigned in Python.'
 In this case, the entity Python should be identified and linked to its specific entity in the KB, which in this context is the programming language.
+
+Detailed report can be found [here](./Report.pdf).
 
 ## Challenges:
 

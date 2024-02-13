@@ -72,5 +72,22 @@ The submission file should contain the NED prediction for the entities in the te
 - id: the id of the entity token in the test file
 - wiki_url: the wiki_url predicted by your model
 
+The entity tokens for which your model does not provide a prediction (i.e., empty predictions) should be labeled as NOT_FOUND.
+
 ## Constraints
 
+The following libraries are recommended to be used in the project:
+- scikit-learn
+- spacy
+- numpy
+- torch
+- pandas
+- matplotlib
+- plotly
+- tqdm
+- transformers
+- scipy
+- click
+
+Note that for spacy library, the usage of its entity linker (https://spacy.io/api/entitylinker) is not allowed. 
+Other libraries for standard data manipulation and analysis libraries and machine learning / deep learning frameworks can be used with the exception of existing implementations of NED. We can use them however for the purpose of comparing our own models.

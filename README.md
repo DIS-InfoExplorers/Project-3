@@ -10,7 +10,7 @@ For instance, consider the following sentence:
 'The projects in Distributed Information Systems are assigned in Python.'
 In this case, the entity Python should be identified and linked to its specific entity in the KB, which in this context is the programming language.
 
-Detailed report can be found [here](./Report.pdf).
+Detailed report can be found in the [Report](./Report.pdf).
 
 ## Challenges:
 
